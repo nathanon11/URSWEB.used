@@ -1,0 +1,106 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: 'prompt';
+}
+
+.Login-bg {
+  height: 100vh;
+  background: url(/src/component/auth/patient.png) no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  
+}
+.font{font-family: 'prompt';}
+.Login-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.Login-text {
+  color: #1776cf;
+  text-align: center;
+  font-family: 'prompt';
+  font-size: '40px';
+padding-top: 2cm;
+padding-Right: 70vh ;
+}
+
+.Login-text2 {
+  color: #888888;
+  text-align: right;
+  font-family: 'prompt';
+}
+
+.Login-btn {
+  background: #1776cf;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  border: 5px ;
+  transition: 0.3s;
+  margin-top: 1rem;
+  border-radius: 15px;
+  margin-right: 40vh ;
+  text-transform: uppercase;
+}
+.Login-btn:hover {
+  border: 2px solid #1776cf;
+  background: transparent;
+  color: #1776cf;
+}
+
+
+@media screen and (max-width: 480px) {
+  .Login-text {
+    padding: 0 2rem;
+  }
+  .Login-bg {
+    height: 1000px;
+    margin-left: 5vh;
+    margin-top: 5vh;
+    background: url(/src/component/auth/59.png) no-repeat;
+    background-size: 30vh;
+    overflow: hidden;
+ 
+  }
+  .Login-text {
+    color: #1776cf;
+    text-align: right;
+    font-family: 'prompt';
+    font-size: '20px';
+    margin-top: 4vh;
+    margin-right: 16vh;
+  
+   
+  }
+  .Login-text2 {
+    color: #888888;
+    text-align: right;
+    font-family: 'prompt';
+    margin-left: 60vh ;
+  }
+  .text{
+    
+    text-align: right;
+    margin-right: 10vh;
+    
+  }
+  .Login-btn {
+    background: #1776cf;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    border: 5px ;
+    transition: 0.3s;
+    margin-top: 1rem;
+    border-radius: 15px;
+    margin-right: 30vh ;
+    text-transform: uppercase;
+  }
+  
+  
+}

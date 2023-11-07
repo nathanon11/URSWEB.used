@@ -1,0 +1,157 @@
+.medical-form {
+  border: 2px solid #d4d4d4;
+  padding: 20px;
+  background-color: #f7f7f7;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  align-items: center;
+}
+
+.textADD {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 88px;
+  color: #1776CF;
+}
+.from{
+  margin-left: 200px;
+}
+
+
+
+.kk {
+  background: #FFFFFF;
+  background-color:"white";
+  
+}
+
+.medical-form label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  align-items: center;
+  
+}
+
+.medical-form input[type="file"] {
+  display: none;
+}
+
+.medical-form .drag-area {
+  border: 2px dashed #1776CF;
+  padding: 25px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.font{font-family: 'prompt';}
+.medical-form .drag-area.highlight {
+  background-color: #e6f7ff;
+}
+
+.medical-form .drag-area i {
+  font-size: 50px;
+  margin-bottom: 15px;
+  color: #1776CF;
+  display: block;
+}
+
+.medical-form .drag-area p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #1776CF;
+}
+
+.medical-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #1776CF;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.l{
+  margin-left:30vh;
+}
+.r{
+  margin-right:150vh;
+  margin-top:10vh;
+}
+.medical-form button[type="submit"]:hover {
+  background-color: #0059b3;
+}
+
+.formhigh {
+  align-items: center;
+}
+
+.inputimage {
+  margin-left: 70%;
+}
+
+.labelimage {
+  margin-left: 70px;
+  max-width: 300px;
+}
+
+.dotted{
+ 
+  border: 2px dotted #1776CF ;
+  border-radius: 2%;
+   padding-left: 1px;
+   width: 200px;
+   height: 70px;
+  
+}
+.c{
+  margin-top: 20px ;
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+  height: "100%"
+
+}
+
+
+@media screen and (max-width: 480px) {
+  
+  
+.textADD {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 88px;
+  color: #1776CF;
+}
+.from{
+  margin-left: 5px;
+}
+.kk {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(120, 120, 120, 0.83);
+  border-radius: 15px;
+
+  align-items: center;
+  background-color:"white";
+  width:"1000px";
+}
+.l{
+  margin-left:3vh;
+}
+.r{
+  margin-right:25vh;
+  margin-top:5vh;
+}
+.b{
+  text-Align: center;
+   border: 2px dotted #1776CF; 
+   padding: 20px;
+   width: 600px;
+   height:400px;
+   margin-right: -2000px;
+}
+
+}

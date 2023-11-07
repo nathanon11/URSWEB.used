@@ -1,0 +1,176 @@
+.maindiv{
+  height: max-content;
+}
+
+.font{font-family: 'prompt';}
+.container {
+  max-width: 1500px;
+  height: 2000px;
+  margin: 0 auto;
+}
+
+.homedoc-bg {
+  height: 100vh;
+  background: url(/src/component/doc/75.png) no-repeat;
+  background-size: 1300px;
+  overflow: hidden;
+  background-position-x: center;
+  background-position-y: 90px;
+  align-items: center;
+  
+}
+.homedoc-bg1 {
+    height: 100vh;
+    background: url(/src/component/doc/83.png) no-repeat;
+    background-size: 1300px;
+    overflow: hidden;
+    background-position-x: center;
+    align-items: center;
+    padding-top: 150vh;
+    
+  }
+
+  .homedoc-bg2 {
+    height: 200vh;
+    background: url(/src/component/doc/84.png) no-repeat ;
+    background-size: 1300px;
+    overflow: hidden;
+    background-position-x: center;
+    margin-top: -300px;
+    align-items: center;
+  }
+.homedoc-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.homedoc-text {
+  color: #595959;
+  text-align: right;
+  font-size: 40px;
+  margin-top: 2px;
+}
+.homedoc-btn {
+    background: #1a87ed;
+    position: absolute;
+    height: 60px;
+    width: 270px;
+    left: 100vh;
+    top: 170vh;
+    border-radius: 2vh;
+    border-color: #FFFFFF;
+    margin-top: 65vh;
+    margin-left: 30vh;
+  
+    
+}    
+
+.homedoc-btn a{
+  color: #ffffff;
+  
+}    
+.homedoc-btn2 {
+  
+position: absolute;
+width: 877px;
+height: 127px;
+left: 460px;
+top: 4761px;
+
+background: #F5F5F7;
+box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+border-radius: 63.5px;
+  
+}    
+
+.text1 {
+
+    position: absolute;
+    width: 499px;
+    height: 153px;
+    left: 100px;
+    top: 2000px;
+    
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 125%;
+    /* or 50px */
+    
+    
+    color: #1776CF;
+
+
+}
+.homedoc-btn a:hover{
+  color: #ffffff;
+  
+}    
+.homedoc-btn:hover {
+  background: #094f91;
+  position: absolute;
+  height: 5vh;
+  width: 20vh;
+  left: 100vh;
+  top: 170vh;
+  border-radius: 2vh;
+  border-color: #FFFFFF;
+  margin-top: 5vh;
+  margin-left: 8vh;
+
+  
+}    
+
+
+@media screen and (max-width: 480px) {
+  .homedoc-text {
+    padding: 0 2rem;
+  }
+  .homedoc-bg {
+    
+    background: url(/src/component/doc/1.png) no-repeat;
+    background-size: 400px;
+    overflow: hidden;
+    background-position-x: center;
+    background-position-y: 0px;
+  }
+  
+  .homedoc-bg1 {
+    
+    background: url(/src/component/doc/2.png) no-repeat ;
+    background-size: 500px;
+    overflow: hidden;
+    margin-left: -2cm;
+    margin-top: -900px;
+    align-items: center;
+   
+    background-position-y: 500px;
+  }
+  
+.homedoc-btn {
+  background: #1a87ed;
+  position: absolute;
+  height: 30px;
+  width: 90px;
+  left: 15vh;
+  top: 60vh;
+  border-radius: 2vh;
+  font-size: 9px;
+  border-color: #FFFFFF;
+  margin-top: 5vh;
+  margin-left: 2vh;
+
+}
+
+.homedoc-bg2 {
+ 
+  background: url(/src/component/doc/3.png) no-repeat ;
+  background-size: 400px;
+  overflow: hidden;
+  background-position-x: center;
+  margin-top: -400px;
+  align-items: center;
+}    
+}
